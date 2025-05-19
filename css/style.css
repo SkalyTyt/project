@@ -1,0 +1,1466 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.all{
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.background{
+    position: absolute;
+    padding-left: 1110px;
+    padding-top: -1000px;
+}
+
+.header {
+    padding: 36px 0;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #E0E0E0;
+    background-image: url(../img/Group\ 30\ \(4\)-Photoroom.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.menu a{
+ text-decoration: none;
+ font-size: 14px;
+ color: rgb(0, 0, 0);
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.header-link {
+    font-weight: 600px;
+    color: #1c1c1c;
+    font-size: 15px;
+}
+
+.header-container {
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.menu {
+    margin-right: 52px;
+    width: 600px;
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 52px;
+}
+
+.container-logo{
+    padding-left: 140px;
+}
+
+.header-btn{
+    border: 1px solid white;
+}
+
+.container-nav{
+    padding-left: 140px;
+}
+
+.header-btn{
+    padding: 15px;
+    margin-right: 140px;
+    margin-left: 700px;
+    border-radius: 65px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.header-btn:hover {
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+    background-color: #FF4C0D; /* Новый цвет кнопки при наведении */
+}
+
+.container-title{
+    padding-left: 140px;
+    padding-top: 220px;
+    font-size: 40px;
+    color: #FF4C0D;
+}
+
+.container-titletwo{
+    padding-left: 140px;
+    font-size: 20px;
+}
+
+.mainorange-link{
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.mainorange-link:hover {
+    transform: scale(1.1);
+}
+
+main{
+    background-color: #E0E0E0;
+}
+
+.container-titlethree{
+    font-size: 40px;
+    padding-left: 140px;
+    padding-top: 130px;
+}
+
+.main-nav{
+    margin-left: 380px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-right: 180px;
+}
+   
+.main-nav ul{
+       list-style: none;
+}
+   
+.main-link1 {
+       font-weight: 600px;
+       color: #1c1c1c;
+       font-size: 15px;
+}
+
+.main-link2 {
+       font-weight: 600px;
+       color: #1c1c1c;
+       font-size: 15px;
+}
+
+
+.bar{
+    margin-left: 420px;
+}
+
+.info{
+    display: flex;
+    margin-left: 280px;
+}
+
+.info1{
+    font-size: 14px;
+    padding-left: 140px;
+}
+
+.info2{
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.info3{
+    font-size: 14px;
+    padding-left: 140px;
+}
+
+.allphoto{
+    display: flex;
+    margin-left: 280px;
+}
+
+.photo1{
+    width: 760px;
+    height: 400px;
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.photo2{
+    width: 360px;
+    height: 300px;
+    padding-left: 70px;
+}
+
+.ads{
+    margin-top: 120px;
+    background-image: url(../img/image\ 205.png);
+    width: 100%;
+    height: 600px;
+}
+
+.photomi{
+    padding-left: 140px;
+    padding-top: 120px;
+    width: 60px;
+    height: 39px;
+}
+
+.title1{
+    font-size: 45px;
+    color: white;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.title2{
+    font-size: 14px;
+    color: #F1F1F1;
+    padding-left: 140px;
+}
+
+.titledes{
+    font-size: 45px;
+    padding-left: 140px;
+    padding-top: 120px;
+}
+
+.description{
+    align-items: center;
+}
+
+.katrochki{
+    display: flex;
+    margin-left: 200px;
+}
+
+.kartochka1{
+    width: 560px;
+    height: 550px;
+    background-color: black;
+    margin-left: 140px;
+    border-radius: 40px;
+}
+
+.kartochka1 img{
+    width: 560px;
+    height: 407px;
+}
+
+.kartochka1 p{
+    font-size: 20px;
+    color: white;
+    padding-left: 60px;
+}
+
+.kart p{
+    font-size: 14px;
+    color: white;
+    padding-left: 60px;
+}
+
+.kartochka2{
+    width: 560px;
+    height: 550px;
+    background-image: url(../img/image\ 198.png);
+    border-radius: 40px;
+    margin-left: 140px;
+}
+
+.karttt{
+    padding-top: 410px;
+}
+
+.kartochka2 p{
+    font-size: 20px;
+    color: white;
+    padding-left: 60px;
+}
+
+.kart2 p{
+    font-size: 14px;
+    color: white;
+    padding-left: 60px;
+}
+
+.main-navv{
+    margin-left: 380px;
+    font-size: 20px;
+}
+
+.main-navv a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-right: 180px;
+}
+   
+.main-navv ul{
+       list-style: none;
+}
+
+.main-list-itemm{
+    padding-left: 150px;
+}
+
+.main-list-itemmm{
+    padding-left: 60px;
+}
+
+.main-list-itemmmm{
+    padding-left: 40px;
+}
+
+.infoall{
+    display: flex;
+    margin-left: 280px;
+    font-size: 14px;
+}
+
+.info1{
+    font-size: 14px;
+}
+
+.infotwo{
+    color: #151515;
+    font-size: 14px;
+    padding-left: 135px;
+}
+
+.infothree{
+    font-size: 14px;
+    padding-left: 80px;
+}
+
+.infofour{
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.mob{
+    padding-top: 140px;
+    background-position: 1280px;
+}
+
+.mobailphone{
+    margin-left: 1180px;
+    margin-top: -500px;
+}
+
+.mobaill{
+    padding-top: 100px;
+    font-size: 40px;
+    padding-left: 140px;
+    color: #FF4C0D;
+}
+
+.desckr{
+    font-size: 14px;
+    padding-left: 140px;
+}
+
+.photoapps{
+    width: 274px;
+    height: 40px;
+    padding-left: 140px;
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+
+.adss{
+    background-image: url(../img/Group\ 33.png);
+    background-repeat: no-repeat;
+    background-position: -170px;
+    background-size: 110%;
+    padding-top: 50px;
+    height: 550px;
+}
+
+.photomii{
+    margin-left: 140px;
+    margin-top: 120px;
+    width: 60px;
+    height: 39px;
+}
+
+.title1{
+    font-size: 45px;
+    color: white;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.title2{
+    font-size: 14px;
+    color: #F1F1F1;
+    padding-left: 140px;
+}
+
+.zagol{
+    font-size: 40px;
+    padding-left: 140px;
+    margin-top: -30px;
+    padding-top: 70px;
+    color: #FF4C0D;
+}
+
+.allkart{
+    background-repeat: no-repeat;
+}
+
+.kartochki{
+    display: flex;
+}
+
+.kartochka12{
+    margin-left: 380px;
+    width: 460px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.kartochka12 .zagolkart{
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.kartochka12 img{
+    padding-left: 50px;
+}
+
+.kartochka13{
+    margin-left: 380px;
+    width: 460px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.kartochka13 .zagolkart{
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.kartochka13 img{
+    padding-left: 50px;
+}
+
+.textttx {
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+.otzivi{
+    display: flex;
+}
+
+.otziv{
+    padding-top: 50px;
+    padding-left: 380px;
+}
+
+.otziv .buttton{
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.strelki{
+    padding-top: 50px;
+    padding-left: 720px;
+}
+
+.buttton p{
+    margin: 0px;
+    font-size: 16px;
+}
+
+.buttton:hover {
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+    background-color: #FF4C0D; /* Новый цвет кнопки при наведении */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.question {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.questionq {
+    padding-left: 140px;
+    color: #FF4C0D;
+    font-size: 40px;
+}
+
+.qqww {
+    padding-left: 140px;
+    font-size: 14px;
+}
+
+.otziv1 {
+    padding-top: 50px;
+    padding-left: 140px;
+}
+
+.otziv1 .buttton1 {
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+
+}
+
+.buttton1:hover {
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+    background-color: #FF4C0D; /* Новый цвет кнопки при наведении */
+}
+
+.buttton1 p {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.answer {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.answers {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.answerr {
+    font-size: 14px;
+}
+
+.container12{
+    display: flex;
+    margin-left: 380px;
+    margin-top: 140px;
+    width: 1160px;
+    height: 550px;
+    background-color: white;
+}
+
+.zagolovochek{
+    margin: 0px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.otziv12 {
+    margin-top: 150px;
+    padding-left: 10px;
+}
+
+.otziv12 .buttton12 {
+    background-color: #FF4C0D;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.buttton12 p {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.bike32{
+    margin-top: -120px;
+    margin-left: -100px;
+}
+
+.complect{
+    margin-left: -500px;
+    padding-top: 60px;
+}
+
+.compl{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.complecty{
+    font-size: 14px;
+}
+
+.conttt{
+    display: flex;
+    background-color: #E0E0E0;
+}
+
+.leftpart{
+    padding-left: 380px;
+}
+
+.rightpart{
+    margin-left: 700px;
+    text-align: right;
+}
+
+.burger-menu {
+    display: none;
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 0px;
+}
+
+.menu a:hover {
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.zagolovochek p{
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .all{
+        width: 768px;
+    }
+
+    .main{
+    margin-top: -150px;
+    }
+
+    .header{
+        background-image: none;
+        background-image: url(../img/c6eea0c2-3421-4b3a-893e-487e9295dd61-no-bg-preview\ \(carve.photos\).png);
+        background-position: -130px;
+        height: 600px;
+    }
+
+    .container-logo{
+        padding-left: 30px;
+    }
+
+    .header-logo {
+        padding-left: -150px;
+        padding-top: 15px;
+    }
+    
+    .header-link{
+        margin: 0px;
+    }
+
+    .burger-menu {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 390px;
+    }
+
+    .menu {
+        display: none;
+        width: 150px;
+        top: 60px;
+        right: 390px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(255, 0, 0, 0.1);
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    .container-title{
+        padding: 0px;
+        margin-top: 115px;
+        font-size: 13px;
+        width: 360px;
+        margin-left: 15px;
+    }
+
+    .container-titletwo{
+        padding: 0px;
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    .container-titlethree{
+        display: none;
+        padding: 0px;
+        font-size: 23px;
+        margin-left: 15px;
+    }
+
+    .main-linkk{
+        display: none;
+    }
+
+    .info1{
+        display: none;
+    }
+
+    .infotwo{
+        display: none;
+    }
+
+    .infothree{
+        display: none;
+    }
+
+    .infofour{
+        display: none;
+    }
+
+    .main-nav{
+        padding: 0px;
+        margin-top: 150px;
+    }
+
+    .list-reset{
+        padding: 0px;
+    }
+
+    .mainorange-link{
+        display: none;
+        margin-left: -340px;
+        margin-top: 120px;
+        font-size: 30px;
+    }
+
+    .header-btn{
+        display: none;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    .info{
+        display: flex;
+        width: 900px;
+    }
+
+    .info1{
+        position: absolute;
+        padding: 0px;
+        margin-left: -270px;
+        margin-top: 1px;
+        
+    }
+
+    .main-link1 {
+        position: absolute;
+        margin-top: 170px;
+        margin-left: -360px;
+        width: 400px;
+    }
+
+    .info2{
+        margin-top: 160px;
+        margin-left: -300px;
+    }
+
+    .main-link2{
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -360px;
+    }
+
+    .info3{
+        position: absolute;
+        margin-top: 290px;
+        margin-left: -410px;
+        width: 400px;
+    }
+
+
+    .ads{
+        margin-top: 200px;
+        background-position: -600px;
+    }
+
+    .photomi{
+        padding: 0px;
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+    .photo1{
+        display: none;
+    }
+
+    .photo2{
+        display: none;
+    }
+
+    .title1{
+        padding: 0px;
+        margin-top: 350px;
+        margin-left: 20px;
+        width: 500px;
+        font-size: 40px;
+    }
+
+    .title2{
+        font-size: 15px;
+        margin-top: -15px;
+        margin-left: -115px;
+    }
+
+    .description{
+        margin-top: 100px;
+    }
+
+    .titledes{
+        padding: 0px;
+        font-size: 22px;
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+
+    .kartochki{
+        padding: 0px;
+        position: absolute;
+    }
+
+    .kartochka1{
+    width: 280px;
+    height: 250px;
+    background-color: black;
+    margin-left: -150px;
+    border-radius: 40px;
+    }
+
+    .kartochka1 img{
+    width: 280px;
+    height: 225px;
+    }
+
+    .kartochka1 p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: -90px;
+    margin-top: 50px;
+    font-weight: bold;
+    }
+
+    .kart p{
+    margin-top: 25px;
+    font-weight: lighter;
+    }
+
+    .kartochka2{
+    display: flex;
+    }
+
+    .karttt{
+        display: none;
+    }
+
+    .kartochka2 p{
+    font-size: 20px;
+    color: white;
+    padding-left: 60px;
+    }
+
+    .kart2 p{
+    font-size: 14px;
+    color: white;
+    padding-left: 60px;
+    }
+
+    .mobaill{
+        padding: 0px;
+        margin-left: 15px;
+        width: 450px;
+        font-size: 30px;
+    }
+
+    .desckr{
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    .photoapps{
+        padding: 0px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    .mobailphone{
+        position: absolute;
+    }
+
+    .photomii{
+        display: none;
+    }
+
+    .adss{
+    padding: 0px;
+    background-image: url(../img/640-960.png);
+    background-position: -15px;
+    width: 450px;
+    height: 800px;
+    padding-left: 50px;
+    }
+
+    .title12{
+    display: none;
+    }
+
+    .title22{
+    display: none;
+    }
+
+    .zagol{
+        padding: 0px;
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    .kartochka13{
+        display: none;
+    }
+
+    .kartochka12{
+        padding: 0px;
+        margin-left: -30px;
+    }
+
+    .buttton{
+        position: absolute;
+        margin-top: 240px;
+        margin-left: -230px;
+    }
+
+    .strelki{
+        position: absolute;
+        margin-top: 320px;
+        margin-left: -560px;
+    }
+
+    .question p{
+        width: 400px;
+    }
+
+    .otziv1 .buttton1 p{
+        width: 100px;
+    }
+
+    .questionq{
+        padding: 0px;
+        margin-top: 330px;
+    }
+
+    .answer{
+        margin-top: 700px;
+        margin-left: -800px;
+    }
+
+    .answer p{
+        width: 450px;
+        font-size: 15px;
+    }
+
+
+    .qqww{
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    .container12{
+        padding: 0px;
+        margin-left: -20px;
+    }
+
+    .zagolovochek {
+        padding: 0px;
+    }
+
+    .zagolovochek p{
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .zagolovochek img{
+        display: none;
+    }
+
+    .buttton12{
+        margin-left: 15px;
+        margin-top: 250px;
+    }
+
+    .buttton12 p{
+        font-size: 15px;
+        margin-left: -5px;
+    }
+
+
+    .bike32 img{
+        margin-left: -290px;
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .complect{
+        margin-left: -660px;
+    }
+
+    .leftpart{
+        padding: 0px;
+    }
+
+    .leftpart p{
+        width: 150px;
+        margin-left: 160px;
+    }
+
+    .rightpart{
+        padding: 0px;
+    }
+
+    .rightpart p{
+        position: absolute;
+        margin-top: 70px;
+        width: 170px;
+        margin-left: -870px;
+    } 
+}
+
+/* Адаптация для разрешения 360px */
+@media (max-width: 360px) {
+
+    html{
+    scroll-behavior: smooth;
+}
+
+    .all{
+        width: 360px;
+    }
+
+    .main{
+    margin-top: -150px;
+    }
+
+    .header{
+        background-image: none;
+        background-image: url(../img/c6eea0c2-3421-4b3a-893e-487e9295dd61-no-bg-preview\ \(carve.photos\).png);
+        background-position: -130px;
+        height: 600px;
+    }
+
+    .container-logo{
+        padding-left: 30px;
+    }
+
+    .header-logo {
+        padding-left: -150px;
+        padding-top: 15px;
+    }
+    
+    .header-link{
+        margin: 0px;
+    }
+
+    .burger-menu {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(255, 0, 0, 0.1);
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    #menu-toggle:checked ~ .menu {
+        display: block;
+    }
+
+    .container-title{
+        padding: 0px;
+        margin-top: 115px;
+        font-size: 13px;
+        width: 360px;
+        margin-left: 15px;
+    }
+
+    .container-titletwo{
+        padding: 0px;
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    .container-titlethree{
+        display: none;
+        padding: 0px;
+        font-size: 23px;
+        margin-left: 15px;
+    }
+
+    .main-linkk{
+        display: none;
+    }
+
+    .info1{
+        display: none;
+    }
+
+    .infotwo{
+        display: none;
+    }
+
+    .infothree{
+        display: none;
+    }
+
+    .infofour{
+        display: none;
+    }
+
+    .main-nav{
+        padding: 0px;
+        margin-top: 150px;
+    }
+
+    .list-reset{
+        padding: 0px;
+    }
+
+    .mainorange-link{
+        display: none;
+        margin-left: -340px;
+        margin-top: 120px;
+        font-size: 30px;
+    }
+
+    .header-btn{
+        display: none;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    .info{
+        display: flex;
+        width: 900px;
+    }
+
+    .info1{
+        position: absolute;
+        padding: 0px;
+        margin-left: -270px;
+        margin-top: 1px;
+        
+    }
+
+    .main-link1 {
+        position: absolute;
+        margin-top: 170px;
+        margin-left: -360px;
+        width: 400px;
+    }
+
+    .info2{
+        margin-top: 160px;
+        margin-left: -300px;
+    }
+
+    .main-link2{
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -360px;
+    }
+
+    .info3{
+        position: absolute;
+        margin-top: 290px;
+        margin-left: -410px;
+        width: 400px;
+    }
+
+
+    .ads{
+        margin-top: 200px;
+        background-position: -600px;
+    }
+
+    .photomi{
+        padding: 0px;
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+    .photo1{
+        display: none;
+    }
+
+    .photo2{
+        display: none;
+    }
+
+    .title1{
+        padding: 0px;
+        margin-top: 350px;
+        margin-left: 20px;
+        width: 500px;
+        font-size: 40px;
+    }
+
+    .title2{
+        font-size: 15px;
+        margin-top: -15px;
+        margin-left: -115px;
+    }
+
+    .description{
+        margin-top: 100px;
+    }
+
+    .titledes{
+        padding: 0px;
+        font-size: 22px;
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+
+    .kartochki{
+        padding: 0px;
+        position: absolute;
+    }
+
+    .kartochka1{
+    width: 280px;
+    height: 250px;
+    background-color: black;
+    margin-left: -150px;
+    border-radius: 40px;
+    }
+
+    .kartochka1 img{
+    width: 280px;
+    height: 225px;
+    }
+
+    .kartochka1 p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: -90px;
+    margin-top: 50px;
+    font-weight: bold;
+    }
+
+    .kart p{
+    margin-top: 25px;
+    font-weight: lighter;
+    }
+
+    .kartochka2{
+    display: flex;
+    }
+
+    .karttt{
+        display: none;
+    }
+
+    .kartochka2 p{
+    font-size: 20px;
+    color: white;
+    padding-left: 60px;
+    }
+
+    .kart2 p{
+    font-size: 14px;
+    color: white;
+    padding-left: 60px;
+    }
+
+    .mobaill{
+        padding: 0px;
+        margin-left: 15px;
+        width: 450px;
+        font-size: 30px;
+    }
+
+    .desckr{
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    .photoapps{
+        padding: 0px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    .mobailphone{
+        position: absolute;
+    }
+
+    .photomii{
+        display: none;
+    }
+
+    .adss{
+    padding: 0px;
+    background-image: url(../img/640-960.png);
+    background-position: -10px;
+    width: 320px;
+    height: 700px;
+    padding-left: 50px;
+    }
+
+    .title12{
+    display: none;
+    }
+
+    .title22{
+    display: none;
+    }
+
+    .zagol{
+        padding: 0px;
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    .kartochka13{
+        display: none;
+    }
+
+    .kartochka12{
+        padding: 0px;
+        margin-left: -30px;
+    }
+
+    .buttton{
+        position: absolute;
+        margin-top: 240px;
+        margin-left: -280px;
+    }
+
+    .strelki{
+        position: absolute;
+        margin-top: 320px;
+        margin-left: -610px;
+    }
+
+    .question p{
+        width: 400px;
+    }
+
+    .otziv1 .buttton1 p{
+        width: 100px;
+    }
+
+    .questionq{
+        padding: 0px;
+        margin-top: 330px;
+    }
+
+    .answer{
+        margin-top: 700px;
+        margin-left: -440px;
+    }
+
+    .qqww{
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    .container12{
+        padding: 0px;
+        margin-left: -20px;
+    }
+
+    .zagolovochek {
+        padding: 0px;
+    }
+
+    .zagolovochek p{
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .zagolovochek img{
+        display: none;
+    }
+
+    .buttton12{
+        margin-left: 15px;
+        margin-top: 250px;
+    }
+
+    .buttton12 p{
+        font-size: 15px;
+        margin-left: -5px;
+    }
+
+
+    .bike32 img{
+        margin-left: -290px;
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .complect{
+        margin-left: -660px;
+    }
+
+    .leftpart{
+        padding: 0px;
+    }
+
+    .leftpart p{
+        width: 150px;
+        margin-left: 120px;
+    }
+
+    .rightpart{
+        padding: 0px;
+    }
+
+    .rightpart p{
+        position: absolute;
+        margin-top: 70px;
+        width: 170px;
+        margin-left: -870px;
+    } 
+}
